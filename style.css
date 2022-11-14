@@ -1,0 +1,100 @@
+*{
+    background-image: url(./BACKGROUND.jpg);
+    background-repeat: repeat;
+    color: rgb(11, 56, 11);
+}
+
+.circle{
+    background-image: none;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(229, 215, 179);
+    border: pink solid 1px;
+    border-radius: 50%;
+    z-index: 1;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    top: 50px;
+}
+
+.inside-circle-div1{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 200px;
+    top: 10px;
+    background-image: url(./css\ 2_1.jpg);
+}
+
+.inside-circle-div2{
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 150px;
+    top: 140px;
+    background-image: none;
+    font-style: italic;
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+    
+}
+
+.inside-circle-div3 {
+    font-weight: bolder;
+    font-size: 67px;
+    background-image: none;
+    position: absolute;
+    top: 214px;
+    left: 54px;
+    color: rgb(11, 56, 11);
+}
+
+.inside-circle-div4 {
+    position: absolute;
+    background-image: none;
+    top: 300px;
+    left: 180px;
+    font-weight: 600;
+    font-size: 25px;
+    
+    
+}
+
+.inside-circle-div4 ul {
+    background-image: none;
+    display: inline;
+    position: absolute;
+    top: -25px;
+    width: 99px;
+    height: 20px;
+    left: 115px;
+    padding-left: 0px;
+    
+}
+
+.inside-circle-div4 ul li{
+    background-image: none;
+    /* display: inline; */
+}
+
+.inside-circle-div4 span{
+    background-image: none;
+    display: inline;
+    position: relative;
+    left: -50px;
+}
+
+
+.inside-circle-div5{
+    background-image: none;
+    position: absolute;
+    top: 370px;
+    left: 170px;
+    line-height: 25px;
+    font-weight: 400;
+    font-size: large;
+
+}
+
